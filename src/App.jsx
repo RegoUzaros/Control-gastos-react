@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Heder } from './components/Heder'
 
 
 
@@ -6,7 +7,9 @@ function App() {
 
 
   return (
-    <h1>control de gastos </h1>
+   <div>
+    <Heder/>
+   </div>
   )
 }
 
